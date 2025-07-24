@@ -11,10 +11,10 @@ const Header: React.FC = () => {
         <nav>
           <ul className='flex space-x-6'>
             <li className='hover:underline'>
-              <Link href={"/posts"}>Posts</Link>
+              <Link href="/posts">Posts</Link>
             </li>
              <li className='hover:underline'>
-              <Link href={"/posts"}>Users</Link>
+              <Link href="/users">Users</Link>
             </li>
           </ul>
         </nav>
