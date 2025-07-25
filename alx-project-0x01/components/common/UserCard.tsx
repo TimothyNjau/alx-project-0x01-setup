@@ -13,7 +13,7 @@ const UserCard: React.FC<UserProps> = ({
 }) => {
   return (
     <>
-      <div className="flex flex-col w-3/4 border-r-2 border-2 justify-evenly sm:w-auto">
+      <div className="flex flex-col w-auto border-r-2 border-2 justify-evenly sm:w-auto">
         <div className="flex flex-row justify-between mx-6  my-2">
           <Image src="" alt={`Image of ${username}`} width={200} height={200} />
           <div className="flex flex-col gap-2">
