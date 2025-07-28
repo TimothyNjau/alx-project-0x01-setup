@@ -19,7 +19,6 @@ export interface PostModalProps {
 
 export interface UserData {
   userData: UserProps;
-  id?: number;
 }
 
 export interface UserModalProps {

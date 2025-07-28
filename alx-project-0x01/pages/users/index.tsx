@@ -13,7 +13,7 @@ const Users:React.FC<UserPagesProps> = ({posts}) => {
     const [user, setUser] = useState<UserData|null>(null);
 
     const handleAddUser = (newUser: UserData) => {
-        setUser({...newUser, id:posts.length + 1});
+        setUser({...newUser});
         console.log(user);
     };
 
